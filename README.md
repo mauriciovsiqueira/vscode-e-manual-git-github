@@ -73,6 +73,25 @@ Estes comandos representam a rotina de um desenvolvedor e devem ser usados const
 
 ---
 
+## 🔧 Manutenção: Mudei o nome do repositório no GitHub
+Se você alterou o nome do projeto no site, atualize o link local para não perder a conexão:
+```bash
+git remote set-url origin NOVA_URL_AQUI
+```
+
+Verficar se a conexão está certa:  
+```bash
+git remote -v
+```
+
+Para verificar se tem algo no repositório e puxar e depois enviar:
+```bash
+git pull origin main
+git push origin main
+```
+
+---
+
 ## 🔑 3. Autenticação: Personal Access Token (PAT)
 Por segurança, o GitHub exige um **Token de Acesso** no lugar da sua senha comum no terminal.
 
@@ -119,5 +138,10 @@ Para um histórico profissional e fácil de ler, utilize estes prefixos em suas 
 * **`style:`** Formatação, pontos e vírgulas, espaços (não altera a lógica).
 * **`chore:`** Atualizações de tarefas de rotina ou bibliotecas.
     * *Ex: `git commit -m "chore: atualiza dependências do express"`*
+
+---
+
+## 📝 7. Para formatação do README.md:
+Visite: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ---
