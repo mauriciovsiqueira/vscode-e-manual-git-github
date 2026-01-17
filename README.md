@@ -1,3 +1,28 @@
+## ⚙️ Configurações e extensões do VSCODE     
+Extensões:  
+Portuguese (Brazil) Language Pack for Visual Studio Code
+prettier
+Live server
+Code runner
+Rainbow Brackets
+
+
+Settings.json:
+Para manter o editor formatado e leve, utilize estas configurações no seu VS Code:  
+Atalho: crtl + shift + p   
+Na caixa de pesquisa: open user settings (JSON)  
+Substitua o que ten no JSON:
+
+
+```json
+{
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.confirmDelete": false
+}
+
+
 # 🐙 Guia Mestre: Git & GitHub
 
 Este repositório é um manual prático e definitivo para o controle de versão. Aqui você encontrará tudo o que precisa para configurar, gerenciar e manter seus projetos de forma profissional e segura.
