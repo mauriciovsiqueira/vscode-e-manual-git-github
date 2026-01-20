@@ -50,12 +50,24 @@ Siga esta ordem exata ao iniciar um novo projeto para garantir que o repositóri
     git add .
     git commit -m "feat: setup inicial do projeto"
     ```
-4.  **Conectar ao GitHub:**
+    **Obs.:** Pode solicitar que coloque o email e o nome para proceder, coloque seu email e nome dentro das " ":
+    ```bash
+    git config --global user.email "seu-email@exemplo.com"
+    git config --global user.name "Seu Nome"
+    ```
+    **Rode o comando do passo 3 novamente!**
+    
+5.  **Conectar ao GitHub:**
     ```bash
     git branch -M main
     git remote add origin URL_DO_SEU_REPOSITORIO
     git push -u origin main
     ```
+    **Obs.:** Caso tenha arquivos no seu repositório irá dar erro, precisa primeiro atualizar com o comando pull:
+    ```bash
+    git pull origin main --allow-unrelated-histories
+    ```
+    **Rode o comando do passo 3 novamente!**
 
 ---
 
