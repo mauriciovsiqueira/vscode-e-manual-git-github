@@ -50,24 +50,44 @@ Siga esta ordem exata ao iniciar um novo projeto para garantir que o repositóri
     git add .
     git commit -m "feat: setup inicial do projeto"
     ```
-    **Obs.:** Pode solicitar que coloque o email e o nome para proceder, coloque seu email e nome dentro das " ":
+    *Obs.: Pode solicitar que coloque o email e o nome para proceder, coloque seu email e nome dentro das " ".*
     ```bash
     git config --global user.email "seu-email@exemplo.com"
     git config --global user.name "Seu Nome"
     ```
     **Rode o comando do passo 3 novamente!**
     
-5.  **Conectar ao GitHub:**
+4.  **Conectar ao GitHub:**
     ```bash
     git branch -M main
     git remote add origin URL_DO_SEU_REPOSITORIO
     git push -u origin main
     ```
-    **Obs.:** Caso tenha arquivos no seu repositório irá dar erro, precisa primeiro atualizar com o comando pull:
+    *Obs.: Caso tenha arquivos no seu repositório irá dar erro, precisa primeiro atualizar com o comando pull.*
     ```bash
     git pull origin main --allow-unrelated-histories
     ```
-    **Rode o comando do passo 3 novamente!**
+    <br>  
+    
+    **Caso dê erro, prossiga com esses comandos:**    
+    1. **Configure a estratégia de união:**
+    Execute este comando para definir que você prefere o "merge" (unir as histórias):
+     ```bash
+    git config pull.rebase false
+    ```
+
+    2. **Tente o pull novamente:**
+    Agora que a estratégia foi definida, repita o comando anterior:
+    ```bash
+    git pull origin main --allow-unrelated-histories
+    ```
+
+    *Atenção: Se o terminal abrir um editor de texto (como o Vim ou Nano) com uma mensagem de commit, apenas salve e saia. No Vim, digite :wq e dê Enter.* 
+
+    **Envie seus arquivos!:**
+    ```bash
+    git push -u origin main
+    ```
 
 ---
 
