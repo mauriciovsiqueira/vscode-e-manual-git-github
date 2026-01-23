@@ -14,12 +14,17 @@ Na caixa de pesquisa: open user settings (JSON)
 Substitua o que tem no JSON:
 
 
-```json
+```bash
 {
   "files.autoSave": "onFocusChange",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
 }
 ```
 
