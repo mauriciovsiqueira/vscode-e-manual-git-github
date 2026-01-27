@@ -1,4 +1,4 @@
-## ⚙️ Configurações e extensões do VSCODE     
+## Configurações e extensões do VSCODE     
 ### Extensões:  
 Portuguese (Brazil) Language Pack for Visual Studio Code  
 prettier  
@@ -32,13 +32,13 @@ Substitua o que tem no JSON:
 
 <br>
 
-# 🐙 Guia Mestre: Git & GitHub
+# Guia Mestre: Git & GitHub
 
 Este repositório é um manual prático e definitivo para o controle de versão. Aqui você encontrará tudo o que precisa para configurar, gerenciar e manter seus projetos de forma profissional e segura.
 
 ---
 
-## 🚀 1. Configuração Inicial (Primeiro Upload)
+## 1. Configuração Inicial (Primeiro Upload)
 Siga esta ordem exata ao iniciar um novo projeto para garantir que o repositório comece limpo e sem arquivos desnecessários.
 
 1.  **Iniciar o repositório local:**
@@ -96,7 +96,7 @@ Siga esta ordem exata ao iniciar um novo projeto para garantir que o repositóri
 
 ---
 
-## 🔄 2. O Ciclo Diário (Os 6 Comandos Principais)
+## 2. O Ciclo Diário (Os 6 Comandos Principais)
 Estes comandos representam a rotina de um desenvolvedor e devem ser usados constantemente.
 
 | Comando | Descrição |
@@ -110,7 +110,7 @@ Estes comandos representam a rotina de um desenvolvedor e devem ser usados const
 
 ---
 
-## 🔧 Manutenção: Mudei o nome do repositório no GitHub
+## Manutenção: Mudei o nome do repositório no GitHub
 Se você alterou o nome do projeto no site, atualize o link local para não perder a conexão:
 ```bash
 git remote set-url origin NOVA_URL_AQUI
@@ -129,7 +129,7 @@ git push origin main
 
 ---
 
-## 🔑 3. Autenticação: Personal Access Token (PAT)
+## 3. Autenticação: Personal Access Token (PAT)
 Por segurança, o GitHub exige um **Token de Acesso** no lugar da sua senha comum no terminal.
 
 ### Como gerar:
@@ -144,7 +144,7 @@ Por segurança, o GitHub exige um **Token de Acesso** no lugar da sua senha comu
 
 ---
 
-## 🛡️ 4. A Importância do .gitignore
+## 4. A Importância do .gitignore
 O `.gitignore` é o seu escudo contra arquivos desnecessários. Ele mantém o repositório leve e protege seus dados sensíveis.
 
 **O que deve ser ignorado:**
@@ -154,7 +154,7 @@ O `.gitignore` é o seu escudo contra arquivos desnecessários. Ele mantém o re
 
 ---
 
-## 🆘 5. Comandos de Emergência (O "Ctrl+Z" do Git)
+## 5. Comandos de Emergência (O "Ctrl+Z" do Git)
 Fez algo errado? Use estes comandos para recuperar seu trabalho:
 
 * **Desfazer mudanças não salvas em um arquivo:** `git checkout -- nome-do-arquivo`
@@ -163,7 +163,7 @@ Fez algo errado? Use estes comandos para recuperar seu trabalho:
 
 ---
 
-## 📝 6. Boas Práticas: Commits Semânticos
+## 6. Boas Práticas: Commits Semânticos
 Para um histórico profissional e fácil de ler, utilize estes prefixos em suas mensagens:
 
 * **`feat:`** Adição de uma nova funcionalidade.
@@ -178,7 +178,7 @@ Para um histórico profissional e fácil de ler, utilize estes prefixos em suas 
 
 ---
 
-## 📝 7. Para formatação do README.md:
+## 7. Para formatação do README.md:
 Visite: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ---
