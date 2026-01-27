@@ -1,3 +1,5 @@
+# Desenvolvimento Web e outros.
+
 ## Configurações e extensões do VSCODE     
 ### Extensões:  
 Portuguese (Brazil) Language Pack for Visual Studio Code  
@@ -182,3 +184,7 @@ Para um histórico profissional e fácil de ler, utilize estes prefixos em suas 
 Visite: https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ---
+
+## Dicas para Programação e Outros.
+### Os arquivos .txt.  
+*são dicas sobre programação, fique a vontade para usar.*
